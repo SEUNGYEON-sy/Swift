@@ -1,0 +1,21 @@
+//1. 회원가입 : 닉네임, 이메일, 나이, 평점, 성별
+//타입 추론 , 타입 어노테이션
+var nickname: String = "고래밥"
+var age: Int = 33
+let email: String = "jack@jack.com"
+var rate: Double = 4.5
+var gender: Bool = true // true:남자, false:여자
+
+print("안녕하세요 \(nickname)입니다. 저는 \(age)살이고 이메일은 \(email)입니다. \(rate)")
+print(gender)
+print(rate)
+
+nickname = "칙촉"
+age = 20
+//email = "sesac@sesac.com"
+rate = 3.5
+gender = false
+
+print("안녕하세요 \(nickname)입니다. 저는 \(age)살이고 이메일은 \(email)입니다.")
+print(gender)
+print(rate)
